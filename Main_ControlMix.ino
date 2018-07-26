@@ -13,14 +13,15 @@ boolean stringComplete = false;  // whether the string is complete
 void setup()
 {
 	config_port();
-	//IHM_init();
-	//config_DS1307();
+	IHM_init();
+	config_DS1307();
 	//config_SDCARD();
 	
 	pinMode(22,OUTPUT);
 	digitalWrite(22,LOW);
-	
 	pinMode(40,OUTPUT);
+	
+	
 }
 
 void loop()

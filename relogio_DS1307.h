@@ -19,12 +19,16 @@ void atualiza_ds1307(String inputString);
 
 void config_DS1307()
 {
+	//rtc.();
 	rtc.halt(false);
 	rtc.setDOW(TUESDAY);        // Set Day-of-Week to SUNDAY
 	rtc.setTime(12, 0, 0);     // Set the time to 12:00:00 (24hr format)
 	rtc.setDate(26, 06, 2018);   // Set the date to October 3th, 2010
 	rtc.setSQWRate(SQW_RATE_1);
 	rtc.enableSQW(true);
+	
+	DEBUG.println(rtc.getDateStr());
+	DEBUG.println(rtc.getTimeStr());
 }
 
 void atualiza_ds1307(String inputString)
