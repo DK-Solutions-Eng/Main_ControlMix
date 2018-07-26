@@ -12,6 +12,8 @@
 #include "config_ControlMix.h"
 #include <DS1307.h>
 
+DS1307 rtc(PIN_WIRE_SDA,PIN_WIRE_SCL);
+
 void config_DS1307();
 void atualiza_ds1307(String inputString);
 

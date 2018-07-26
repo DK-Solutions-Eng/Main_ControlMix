@@ -10,6 +10,7 @@
 
 #include <SPI.h>
 #include <SD.h>
+#include "config_ControlMix.h"
 
 const int CS_pin = 53;
 Sd2Card card;

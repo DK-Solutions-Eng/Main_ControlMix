@@ -67,17 +67,20 @@
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Main_ControlMix</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries/SD/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ITEADLIB_Arduino_Nextion-master</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries/SD/src/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
@@ -105,17 +108,20 @@
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Main_ControlMix</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries/SD/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ITEADLIB_Arduino_Nextion-master</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries/SD/src/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
@@ -476,17 +482,20 @@ ProjectDir=C:\Users\Lucas Tadeu\Google Drive\DK Solutions\AEPH\Software\AEPH Mod
   <avrgcc.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Main_ControlMix</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries/SD/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ITEADLIB_Arduino_Nextion-master</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries/SD/src/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
@@ -514,17 +523,20 @@ ProjectDir=C:\Users\Lucas Tadeu\Google Drive\DK Solutions\AEPH\Software\AEPH Mod
   <avrgcccpp.compiler.directories.IncludePaths>
     <ListValues>
       <Value>../../../Main_ControlMix</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
-      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SPI/src</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries/SD/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ModbusMaster-master/src</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/DS1307</Value>
+      <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries/ITEADLIB_Arduino_Nextion-master</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries/SoftwareSerial/src</Value>
+      <Value>C:/Program Files (x86)/Arduino/libraries/SD/src/utility</Value>
       <Value>C:/Program Files (x86)/Arduino/libraries</Value>
       <Value>C:/Users/Lucas Tadeu/Documents/Arduino/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/libraries</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/arduino/avr/variants/mega</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/</Value>
-      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr/</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include</Value>
+      <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/avr/include/avr</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.8.1/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.2/include</Value>
       <Value>C:/Program Files (x86)/Arduino/hardware/tools/avr/lib/gcc/avr/4.9.3/include</Value>
@@ -879,6 +891,9 @@ ProjectDir=C:\Users\Lucas Tadeu\Google Drive\DK Solutions\AEPH\Software\AEPH Mod
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="indicador_aeph.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="relogio_DS1307.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="__vm\.Main_ControlMix.vsarduino.h">

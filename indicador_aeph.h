@@ -9,12 +9,8 @@ Author: Lucas Tadeu
 #define INDICADOR_AEPH_H_
 
 #include <ModbusMaster.h>
+#include "config_ControlMix.h"
 
-#define  RS485_interno Serial1
-#define  RS485_interno_BAUD 19200
-#define	RS485_interno_CONFIG SERIAL_8N2
-#define MAX485_DE_INTERNO      41
-#define MAX485_RE_NEG_INTERNO  41
 
 ModbusMaster RS485_INT;
 
@@ -48,20 +44,14 @@ String remote_impressao(uint8_t addr);
 */
 void config_modbus_indicador(byte addr_int)
 {
-	//pinMode(40,OUTPUT);
 	pinMode(MAX485_DE_INTERNO, OUTPUT);
 
 	RS485_interno.begin(RS485_interno_BAUD, RS485_interno_CONFIG);
-	//RS485_externo.begin(RS485_externo_BAUD,RS485_externo_CONFIG);
-
+	
 	RS485_INT.begin(addr_int, RS485_interno);
-	//RS485_EXT.begin(addr_ext,RS485_externo);
-
+	
 	RS485_INT.preTransmission(preTransmission_RS485_interno);
 	RS485_INT.postTransmission(postTransmission_RS485_interno);
-
-	//RS485_EXT.preTransmission(preTransmission_RS485_externo);
-	//RS485_EXT.postTransmission(postTransmission_RS485_externo);
 }
 
 /*
