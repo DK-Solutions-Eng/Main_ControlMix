@@ -19,7 +19,6 @@ void atualiza_ds1307(String inputString);
 
 void config_DS1307()
 {
-	//rtc.();
 	rtc.halt(false);
 	rtc.setDOW(TUESDAY);        // Set Day-of-Week to SUNDAY
 	rtc.setTime(12, 0, 0);     // Set the time to 12:00:00 (24hr format)

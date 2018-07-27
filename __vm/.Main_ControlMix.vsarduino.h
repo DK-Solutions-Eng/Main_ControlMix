@@ -19,7 +19,6 @@
 #define ARDUINO_ARCH_AVR
 //
 //
-void led_peso_bruto();
 
 #include "pins_arduino.h" 
 #include "arduino.h"

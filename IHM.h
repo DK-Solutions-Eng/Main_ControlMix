@@ -13,7 +13,10 @@
 char temp_un[2] = {0};
 	
 void IHM_init();
+void led_peso_bruto();
 void t13PopCallback(void *ptr);
+void p3PopCallback(void *ptr);
+void p4PopCallback(void *ptr);
 
 /*
 * Declare a text object [page id:0,component id:13, component name: "t13"].
@@ -80,6 +83,19 @@ void IHM_init(void)
 	p4.attachPop(p4PopCallback);
 }
 
+void led_peso_bruto()
+{
+	if(peso_bruto==1)
+	{
+		p4.setPic(24);
+		p3.setPic(23);
+	}
+	if(peso_bruto==0)
+	{
+		p4.setPic(23);
+		p3.setPic(24);
+	}
+}
 
 
 #endif /* IHM_H_ */
