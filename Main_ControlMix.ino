@@ -26,17 +26,24 @@ void setup()
 
 void loop()
 {
+	char lines;
 	currentMillis = millis();
 	
 	if (currentMillis - previousMillis >= 500)
 	{
 		previousMillis = currentMillis;
 		digitalWrite(22,!digitalRead(22));
+		//count_lines("TESTE.TXT");
+		//lines=count_lines("TESTE.TXT");
+		//DEBUG.print("NUMERO DE LINHAS DO ARQUIVO:");
+		//DEBUG.println(lines,DEC);
 	}
 	
-	get_peso(indicador).substring(0).toCharArray(buffer,10);
-	t13.setText(buffer);
-	led_peso_bruto();
 	
-	nexLoop(nex_listen_list);
+	//
+	//get_peso(indicador).substring(0).toCharArray(buffer,10);
+	//t13.setText(buffer);
+	//led_peso_bruto();
+	
+	//nexLoop(nex_listen_list);
 }

@@ -14,19 +14,19 @@
 #define RS232_BAUD 9600
 #define RS232_CONFIG SERIAL_8N1
 
-#define  RS485_interno Serial2
+#define  RS485_interno Serial1
 #define  RS485_interno_BAUD 19200
 #define	RS485_interno_CONFIG SERIAL_8N2
-#define MAX485_DE_INTERNO      40
-#define MAX485_RE_NEG_INTERNO  40
+#define MAX485_DE_INTERNO      41
+#define MAX485_RE_NEG_INTERNO  41
 
-#define	RS485_externo Serial1
-#define	RS485_externo_CONFIG SERIAL_8N1
+#define	RS485_externo Serial2
+#define	RS485_externo_CONFIG SERIAL_8N2
 #define RS485_externo_BAUD 19200
-#define MAX485_CONTROLE_EX      41
+#define MAX485_CONTROLE_EX      40
 
 #define DEBUG	Serial
-#define DEBUG_BAUD	9600
+#define DEBUG_BAUD	57600
 #define	DEBUG_CONFIG	SERIAL_8N1
 
 void config_port();

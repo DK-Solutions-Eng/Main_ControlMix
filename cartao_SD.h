@@ -1,9 +1,9 @@
 ﻿/*
- * cartão_SD.h
- *
- * Created: 25/07/2018 21:02:31
- *  Author: Lucas Tadeu
- */ 
+* cartão_SD.h
+*
+* Created: 25/07/2018 21:02:31
+*  Author: Lucas Tadeu
+*/
 
 #ifndef CARTAO_SD_H_
 #define CARTAO_SD_H_
@@ -18,6 +18,7 @@ SdVolume volume;
 SdFile root;
 
 void config_SDCARD();
+unsigned char count_lines(String filename);
 
 void config_SDCARD()
 {
@@ -31,6 +32,7 @@ void config_SDCARD()
 	else
 	{
 		DEBUG.println(F("Cartão SD iniciado com sucesso!"));
+		SD.begin();
 	}
 
 	DEBUG.print("\nTipo do cartão: ");
@@ -79,6 +81,35 @@ void config_SDCARD()
 
 	// list all files in the card with date and size
 	root.ls(LS_R | LS_DATE | LS_SIZE);
+}
+
+unsigned char count_lines(String filename)
+{
+	unsigned char lines=1;
+	char inputChar;
+	File  myfile = SD.open(filename);
+	DEBUG.print(F("TENTANDO ABRIR ARQUIVO "));
+	DEBUG.println(filename);
+	if(myfile)
+	{
+		DEBUG.println(F("ARQUIVO ENCONTRADO"));
+		while (myfile.available())
+		{
+			inputChar=myfile.read();
+			DEBUG.write(inputChar);
+			if (inputChar == '\n'|inputChar == EOF)
+			{
+				lines++;
+			}
+		}
+		DEBUG.print("\n\r");
+		myfile.close();
+	}
+	else
+	{
+		DEBUG.println(F("ARQUIVO NAO ENCONTRADO"));
+	}
+	return lines;
 }
 
 

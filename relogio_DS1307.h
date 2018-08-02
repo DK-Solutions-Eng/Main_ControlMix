@@ -53,7 +53,7 @@ void atualiza_ds1307(String inputString)
 	DEBUG.println(rtc.getTimeStr());
 	DEBUG.println(rtc.getDateStr());
 	DEBUG.println(rtc.getDOWStr());
-	DEBUG.println(F("DS1307 atualizado!"));
+	DEBUG.println(F("DS1307 ATUALIZADO!"));
 	
 	
 }
